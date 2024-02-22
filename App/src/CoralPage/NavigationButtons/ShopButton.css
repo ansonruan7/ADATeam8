@@ -1,0 +1,13 @@
+/* ShopButton.css */
+
+.ShopButton {
+  position: absolute;
+  top: 0px; /* Adjust position as needed */
+  right: 20px; /* Adjust position as needed */
+  z-index: 0; /* Ensure it's above other content */
+}
+
+.ShopButton img {
+  width: 66px;
+  height: 64px;
+}
