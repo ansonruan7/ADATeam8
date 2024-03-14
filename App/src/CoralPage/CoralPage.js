@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './CoralPage.css';
-import coralPageBackground from './images/coralPageBackground.png';
+import coralPageBackground from './images/coralPageBackground.jpeg';
 import ShopButton from './NavigationButtons/ShopButton';
 import LeaderboardButton from './NavigationButtons/LeaderboardButton';
 import CoralButton from './NavigationButtons/CoralButton';

@@ -1,23 +1,35 @@
 /* ShopButtonOnPage.css */
 .ShopButtonOnPage {
     position: absolute;
-    top: 27px;
-    left: 27px;
     z-index: 3; /* Ensure it's above other content */
   }
   
   .ShopButtonOnPage img {
     width: 66px;
     height: 64px;
+    position: absolute;
+    top: 27px;
+    left: 27px;
   }
 
-  .ButtonText {
-    display: block;
-    text-align: center;
-    margin-top: 5px; /* Adjust as needed */
-    font-size: 14px; /* Adjust as needed */
-    font-family: 'DM Serif Display', serif; /* Apply the font */
-    color: white; /* Set text color to white */
-    text-decoration: none; /* Remove underline */
+  .ShopButtonOnPage span{
+
+    /*Layout*/
+    width: 39px;
+    height: 25px;
+    position: absolute; /* Position the text absolutely */
+    top: 91px;
+    left: 40px;
+
+    /*Typography*/
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    size: 18px;
+    line-height: 24.68px;
+    align-items: center;
+    
+    /*Colors*/
+    color: #FFFFFF;
+       
   }
   

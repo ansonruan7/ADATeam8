@@ -51,7 +51,7 @@
   height: 767px;
   position: absolute;
   top: 0;
-  background-position: center ; /* Move the background image to the right */
+  background-position: center right; /* Move the background image to the right */
 }
 
 

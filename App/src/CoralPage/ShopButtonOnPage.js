@@ -13,7 +13,7 @@ function ShopButtonOnPage() {
   return (
     <a href="/ShopButtonOnPage" className="ShopButtonOnPage" onClick={handleClick}>
       <img src={shopButtonImageOnPage} alt="ShopButtonOnPage" /> {/* Render the image */}
-      <span className="ButtonText">Shop</span> {/* Render the text */}
+      <span className="ShopButtonOnPageText">Shop</span> {/* Render the text */}
     </a>
   );
 }
