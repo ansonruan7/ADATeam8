@@ -4,13 +4,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import CoralPage from './CoralPage/CoralPage.js';
 import QuizPage from './QuizPage/QuizPage.js';
+import QuizPage2 from './QuizPage2/QuizPage2.js';
 
 import reportWebVitals from './reportWebVitals.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <QuizPage />
+    <QuizPage2 />
   </React.StrictMode>
 );
 
