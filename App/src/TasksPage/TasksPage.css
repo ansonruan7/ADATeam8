@@ -1,0 +1,49 @@
+.tasks-container {
+    background-color: #EFA498; 
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  h1 {
+    h1 {
+        font-family: 'IBM Plex Serif', sans-serif;
+      }
+    margin-bottom: 30px;
+    color: #020070; 
+  }
+  
+  .task-section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #020070;
+  }
+
+  .task-dropdown {
+    width: 200px; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+  }
+  
+  .continue-button {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .button-icon {
+    font-size: 24px;
+  }
+  
