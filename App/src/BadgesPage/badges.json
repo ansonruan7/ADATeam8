@@ -1,0 +1,36 @@
+{
+    "badges": [
+      {
+        "id": 1,
+        "name": "3-Day Streak",
+        "description": "Did a daily check-in 3 days in a row",
+        "criteria": "daily_visit",
+        "requirement": 3,
+        "image_url": "./images/3-streak.png"
+      },
+      {
+        "id": 2,
+        "name": "5-Day Streak",
+        "description": "Did a daily check-in 5 days in a row",
+        "criteria": "daily_visit",
+        "requirement": 5,
+        "image_url": "./images/5-streak.png"
+      },
+      {
+        "id": 3,
+        "name": "3 Friends",
+        "description": "Chatted with 3 friends",
+        "criteria": "chat_with_friends",
+        "requirement": 3,
+        "image_url": "./images/3-chat.png"
+      },
+      {
+        "id": 4,
+        "name": "5 Friends",
+        "description": "Chatted with 5 friends",
+        "criteria": "chat_with_friends",
+        "requirement": 5,
+        "image_url": "./images/5-chat.png"
+      }
+    ]
+  }

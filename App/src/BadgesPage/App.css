@@ -1,0 +1,32 @@
+.backgroundIMG {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw; /* 100% of viewport width */
+  height: auto; /* Maintain aspect ratio */
+  z-index: -1; /* Ensure it's behind other content */
+  opacity: 80%;
+}
+
+.badges {
+  z-index: 1;
+  color: #0094FF;
+}
+
+.badges h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.button {
+  background-color: white;
+  border-color: #0094FF;
+  border-radius: 3px;
+  width: 30px;
+  padding: 10px;
+  margin: 30px 0 30px 0;
+}
