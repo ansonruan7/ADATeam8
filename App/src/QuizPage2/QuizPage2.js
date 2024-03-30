@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './QuizPage2.css';
-import ContinueButton from '../QuizPage/ContinueButton';
+import ContinueButton from './ContinueButton';
 import AddButton from './AddButton';
 
 function QuizPage2() {
