@@ -1,0 +1,179 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting up basic layout */
+body {
+    font-family: 'Arial', serif;
+    background-color: #f0f0f0;
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px; /* Add padding around the content */
+}
+
+.container {
+    max-width: 800px; /* Limiting width for better readability */
+    margin: 0 auto; /* Centering the container */
+}
+
+/* Styling leaderboard title */
+h1 {
+    text-align: center;
+    left: 50%;
+    bottom: 300;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for the podium container */
+.podium {
+    display: flex;
+    justify-content: right; /* Distribute space evenly between elements */
+    align-items: flex-end; /* Align elements at the bottom of the container */
+    height: 300px; /* Set a fixed height for the podium */
+    width: 70%; /* Make the podium span the entire width */
+}
+
+/* Style for each podium place */
+.third-place, .first-place, .second-place {
+    width: 100px; /* Set a fixed width for each place */
+    background-color: #ccc; /* Default background color */
+    border: 1px solid #000; /* Add a border for visual distinction */
+    transition: height 0.3s; /* Smooth transition for height changes */
+    
+}
+
+/* Additional styling for specific places */
+
+.label-3rd {
+    position: absolute; /* Set position to absolute */
+    bottom: 300; /* Position the label at the bottom */
+    left: 43%; /* Center the label horizontally */
+    transform: translateX(-50%); /* Center the label horizontally */
+    color: #000000; /* Text color for labels */
+}
+
+.label-2nd {
+    position: absolute; /* Set position to absolute */
+    bottom: 300; /* Position the label at the bottom */
+    left: 57%; /* Center the label horizontally */
+    transform: translateX(-50%); /* Center the label horizontally */
+    color: #000000; /* Text color for labels */
+}
+
+.label-1st {
+    position: absolute; /* Set position to absolute */
+    bottom: 300; /* Position the label at the bottom */
+    left: 50%; /* Center the label horizontally */
+    transform: translateX(-50%); /* Center the label horizontally */
+    color: #000000; /* Text color for labels */
+}
+
+.third-place {
+    height: 30%; /* Adjust height based on score */
+    background-color: #cd7f32; /* Bronze color for third place */
+}
+
+.first-place {
+    display: flex; 
+    justify-content: center;
+    height: 60%; /* Adjust height based on score */
+    background-color: gold; /* Gold color for first place */
+}
+
+.second-place {
+    height: 40%; /* Adjust height based on score */
+    background-color: silver; /* Silver color for second place */
+}
+
+
+
+/* .centered-div {
+    width: 300px; /* Set the width of your div */
+    /* margin: 0 auto; /* Set left and right margins to 'auto' */
+    /* background-color: #f0f0f0; Example background color */ */
+    /* Add other styles as needed */
+/* } */ 
+
+
+/* Styling player entries */
+.player-list {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow effect */
+}
+
+/* Remove bullet points for player list items */
+.player_list li {
+    list-style-type: none;
+    width: 250px; /* Set width of list items */
+    height: 60px; /* Set height of list items */
+    margin-bottom: 3px; /* Add space between list items */
+
+}
+
+.player img {
+    width: 50px; /* Adjust image size as needed */
+    border-radius: 50%; /* Display images as circles */
+    margin-right: 10px;
+}
+
+.player .name {
+    font-weight: bold;
+    margin-right: 45px;
+}
+
+.player .score {
+    color: #010101;
+    margin-left: 20 px;
+    font-size: 13px;
+    /* margin-right: 40px; */
+}
+
+.player .rank {
+    color: #010101;
+    margin-left: 730px;
+    font-size: 13px;
+    padding: 20px;
+    /* margin-right: 50px;
+    margin-right: 40px; */
+}
+
+
+button {
+    background-color: #e3dbdb04; /* Transparent */
+    text-align: right;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-width: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.line {
+    border-bottom: 0.5px solid #afafaf32;
+  }
+
+/* Styling friends list
+.friends {
+    list-style: none; /* Remove default list styles */
+    /* margin-top: 25 px; */
+/* } */ */
+
+/* .friends li {
+    margin-bottom: 5px;
+} */
+
+/* Styling footer */
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+    color: #b4b0b0bc;
+}
