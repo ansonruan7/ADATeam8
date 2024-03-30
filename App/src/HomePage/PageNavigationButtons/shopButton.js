@@ -1,4 +1,3 @@
-
 // ShopButtonOnPage.js
 import React from 'react';
 import './ShopButtonOnPage.css'; // Import the CSS file for the button component
@@ -13,7 +12,7 @@ function ShopButtonOnPage() {
   return (
     <a href="/ShopButtonOnPage" className="ShopButtonOnPage" onClick={handleClick}>
       <img src={shopButtonImageOnPage} alt="ShopButtonOnPage" /> {/* Render the image */}
-      <span className="ShopButtonOnPageText">Shop</span> {/* Render the text */}
+      <span className="ButtonText">Shop</span> {/* Render the text */}
     </a>
   );
 }

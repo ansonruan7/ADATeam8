@@ -1,0 +1,35 @@
+/* DepressionButton.css */
+
+.DepressionButton {
+    z-index: 3; /* Ensure it's above other content */
+  }
+  
+.DepressionButton img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute; /* Position the image absolutely */
+    top: 185px; /* Adjust as needed */
+    left: 229px; /* Adjust as needed */
+  }
+  
+.DepressionButton span {
+    /*Layout*/
+    width: 108px;
+    height: 29px;
+    position: absolute; /* Position the text absolutely */
+    top: 292px;
+    left: 225px;
+
+    /*Typography*/
+    font-family: 'Inter';
+    font-weight: 300;
+    font-style: italic;
+    size: 20px;
+    line-height: 24.2px;
+    align-items: center;
+    
+    /*Colors*/
+    color: #020070;
+  }
+  

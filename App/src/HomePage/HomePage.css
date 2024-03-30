@@ -1,0 +1,67 @@
+/* Importing the DM Serif Display font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.app {
+    background-image: url('homePageImage/beachBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .profile-icon {
+    background-image: url('ProfileIcon/Icon.jpg');
+    background-size: cover;
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+  }
+  
+  .buttons {
+    width: 80%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button {
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    width: 80%; 
+    text-align: center;
+    color: #000000; 
+    font-weight: bold;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .badge-icon,
+  .trophy-icon,
+  .coral-icon {
+    background-size: cover;
+    width: 60px; 
+    height: 60px; 
+    margin-bottom: 20px; 
+  }
+  
+

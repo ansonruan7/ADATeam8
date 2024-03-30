@@ -1,0 +1,30 @@
+/* QuizPage.css */
+
+/* Import the DM Serif Display font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Container styles */
+.QuizPage {
+  width: 390px; /* Set width to 390px */
+  height: 844px; /* Set height to 844px */
+  margin: 0 auto; /* Center the container horizontally */
+  overflow: hidden; /* Hide any content that overflows the container */
+  position: relative; /* Make it relative to position the footer */
+  background: radial-gradient(50% 50% at 50% 50%, rgba(105, 136, 105, 0.74) 0%, #698869 100%); /* Radial gradient background */
+}
+
+
+
+/*Style for the heading */
+.heading {
+  text-align: center; /* Center the text horizontally */
+  margin-top: 45px; /* Add top margin to separate from other elements */
+  font-family: Inter;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 38.73px;
+  color: #020070;
+
+}

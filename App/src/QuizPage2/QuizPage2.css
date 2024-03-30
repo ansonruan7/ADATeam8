@@ -1,0 +1,59 @@
+/* QuizPage2.css */
+
+/* Import the DM Serif Display font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Container styles */
+.QuizPage2 {
+  width: 390px; /* Set width to 390px */
+  height: 844px; /* Set height to 844px */
+  margin: 0 auto; /* Center the container horizontally */
+  overflow: hidden; /* Hide any content that overflows the container */
+  position: relative; /* Make it relative to position the footer */
+  background: radial-gradient(50% 50% at 50% 50%, rgba(105, 136, 105, 0.74) 0%, #698869 100%); /* Radial gradient background */
+}
+
+
+
+/*Style for the heading */
+.heading {
+  text-align: center; 
+  margin-top: 45px; 
+  font-family: Inter;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 38.73px;
+  color: #020070; 
+
+}
+
+/* Style for the input */
+input[type="text"] {
+
+  /*Layout*/
+  width: 290px;
+  height: 61px;
+  top: 205px; 
+  left: 53px;
+  border-radius: 25px;  
+  background-color: #D9D9D9;
+  
+  font-family: Inter;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-emphasis-color: #000000;
+
+  width: 100%; /* Set input width to 100% to occupy full width of its container */
+  padding: 10px; /* Add padding to provide spacing between text and input border */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border: 1px solid #ccc; /* Add a border */
+
+
+}
+

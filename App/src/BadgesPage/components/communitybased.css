@@ -1,0 +1,14 @@
+.heading {
+    text-align: center;
+}
+
+.threeFriends {
+    width: 175px;
+    margin-left: 8px;
+    position: absolute;
+}
+
+.fiveFriends {
+    width: 180px;
+    margin-left: 175px;
+}

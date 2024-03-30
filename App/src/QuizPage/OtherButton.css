@@ -1,0 +1,38 @@
+/* OtherButton.css */
+.OtherButton {
+    z-index: 3; /* Ensure it's above other content */
+}
+
+.OtherButton img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute; /* Position the text absolutely */
+    top: 524px;
+    left: 229px;
+ 
+    background-color: rgba(0, 0, 0, 0.2); /* Set the background color with 20% opacity */
+
+}
+
+.OtherButton span {
+    text-align: center;
+
+    /*Layout*/
+    width: 108px;
+    height: 29px;
+    position: absolute; 
+    top: 630px;
+    left: 225px;
+
+    /*Typography*/
+    font-family: 'Inter';
+    font-weight: 300;
+    font-style: italic;
+    size: 20px;
+    line-height: 24.2px;
+    align-items: center;
+    
+    /*Colors*/
+    color: #020070;
+}
