@@ -9,9 +9,10 @@ function HomePage() {
         <div className="profile-icon" />
       </div>
       <div className="buttons">
-        <button className="button my-tasks">My Tasks</button>
-        <button className="button daily-streak">Daily Streak</button>
-        <button className="button badges">Badges</button>
+        <a href='/tasks'><button className="button">My Tasks</button></a>
+        <a href=''><button className="button">Daily Streak</button></a>
+        <a href='/badges'><button className="button">Badges</button></a>
+        <a href='/coral'><button className="button">Coral</button></a>
       </div>
       <div className="footer">
         <div className="badge-icon"></div>

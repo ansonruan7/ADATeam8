@@ -9,7 +9,7 @@ function ContinueButton() {
   };
 
   return (
-    <a href="/coral" className="ContinueButton" onClick={handleClick}>
+    <a href="/home" className="ContinueButton" onClick={handleClick}>
       <img src={continueImage} alt="ContinueButton" /> {/* Render the image */}
       <span className="ButtonText">Continue</span> {/* Render the text */}
     </a>

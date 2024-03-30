@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { useGlobalContext } from "ADATeam8/App/src/BadgesPage/components/ClickCount.jsx";
-import "ADATeam8/App/src/BadgesPage/components/activitybased.css";
+import { useGlobalContext } from './ClickCount';
+import './activitybased.css';
 
 const DailyCheckIn = () => {
   const { clickCount, setClickCount } = useGlobalContext();

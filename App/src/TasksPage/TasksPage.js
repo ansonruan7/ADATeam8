@@ -32,10 +32,11 @@ const TasksPage = () => {
           <option value="item3">Task 3</option>
         </select>
       </div>
-
+      <a href='/home'>
       <button className="continue-button">
         <span className="button-icon">🌱</span> Continue
       </button>
+      </a>
     </div>
   );
 };

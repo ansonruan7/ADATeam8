@@ -1,6 +1,6 @@
 import "./communitybased.css";
-import threeFriends from "ADATeam8/App/src/BadgesPage/images/chat 3 friends.png";
-import fiveFriends from "ADATeam8/App/src/BadgesPage/images/chat 5 friends.png";
+import threeFriends from "../images/chat 3 friends.png";
+import fiveFriends from "../images/chat 5 friends.png";
 
 function CommunityBased() {
   return (

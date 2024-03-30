@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 .app {
-    background-image: url('homePageImage/beachBackground.jpg');
+    background-image: url('./homePageImage/beachBackground.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -30,7 +30,7 @@
   }
   
   .buttons {
-    width: 80%; 
+    width: 100%; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,7 +43,7 @@
     padding: 10px 20px;
     margin: 10px;
     font-size: 1em;
-    width: 80%; 
+    width: 250px; 
     text-align: center;
     color: #000000; 
     font-weight: bold;
